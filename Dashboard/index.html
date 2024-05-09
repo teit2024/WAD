@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block sidebar">
+          <div class="sidebar-sticky">
+            <ul class="navbar-nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#"> Dashboard </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Student Enrollment </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Faculty Information </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Events </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Announcements </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 content">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body total-students">
+                  <h5 class="card-title">Total Students</h5>
+                  <p class="card-text">1500</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body total-faculty">
+                  <h5 class="card-title">Total Faculty Members</h5>
+                  <p class="card-text">100</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body upcoming-events">
+                  <h5 class="card-title">Upcoming Events</h5>
+                  <ul>
+                    <li>Event 1 - 10/04/2024</li>
+                    <li>Event 2 - 15/04/2024</li>
+                    <li>Event 3 - 20/04/2024</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body enrollment-stats">
+                  <h5 class="card-title">Student Enrollment Statistics</h5>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Year</th>
+                        <th>Number of Students</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>2022</td>
+                        <td>500</td>
+                      </tr>
+                      <tr>
+                        <td>2023</td>
+                        <td>800</td>
+                      </tr>
+                      <tr>
+                        <td>2024</td>
+                        <td>1500</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body recent-announcements">
+                  <h5 class="card-title">Recent Announcements</h5>
+                  <ul>
+                    <li>Important notice regarding exam schedule.</li>
+                    <li>Library timings revised.</li>
+                    <li>Registration for spring semester now open.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-body authorities">
+                  <h5 class="card-title">Authorities</h5>
+                  <p class="card-text">
+                    All rights reserved to principal, VPKBIET.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

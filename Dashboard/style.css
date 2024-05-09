@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+   }
+   
+   #sidebar {
+    background-color: #343a40;
+    color: white;
+   }
+   
+   #sidebar ul.navbar-nav li.nav-item {
+    padding: 10px 20px;
+   }
+   
+   .content {
+    margin-top: 20px;
+   }
+   
+   .card {
+    margin-bottom: 20px;
+   }
+   
+   .total-students {
+    background-color: rgb(255, 251, 0);
+    height: 170px;
+   }
+   
+   .total-faculty {
+    background-color: rgb(255, 0, 0);
+    height: 170px;
+   }
+   
+   .upcoming-events {
+    background-color: rgba(44, 44, 170, 0.575);
+    height: 170px;
+   }
+   
+   .enrollment-stats {
+    background-color: rgba(255, 228, 196, 0.509);
+    height: 300px;
+   }
+   
+   .recent-announcements {
+    background-color: rgba(255, 228, 196, 0.509);
+    height: 300px;
+   }
+   
+   .authorities {
+    background-color: rgba(255, 228, 196, 0);
+    height: 200px;
+   }
+   
