@@ -1,0 +1,15 @@
+
+
+.container1{
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: space-between; 
+    align-items: start;
+    overflow: scroll;
+    height:100vh;
+}
+
+.container1 .card img{
+    height:250px
+}
