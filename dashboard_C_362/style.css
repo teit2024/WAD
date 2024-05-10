@@ -1,0 +1,14 @@
+.carousel img{
+   object-fit:fill;
+    
+}
+ 
+/* @media (max-width:992px){
+    
+    .sidebar{
+       position:absolute;
+       left:-200px;
+    }
+
+
+}  */
